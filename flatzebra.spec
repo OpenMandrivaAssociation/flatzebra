@@ -14,6 +14,7 @@ Group:		System/Libraries
 License:	GPL
 URL:		http://www3.sympatico.ca/sarrazip/dev/burgerspace.html
 Source:		%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	SDL1.2-devel
 BuildRequires:	SDL_image1.2-devel
 BuildRequires:	SDL_mixer1.2-devel
