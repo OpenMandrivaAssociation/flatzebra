@@ -1,6 +1,6 @@
 %define name flatzebra
 %define version	0.1.1
-%define release %mkrel 3
+%define release %mkrel 5
 
 %define major   0.1_2
 %define libname %mklibname %name %major
