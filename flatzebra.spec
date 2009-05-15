@@ -12,8 +12,8 @@ Version:	%{version}
 Release:	%{release}
 Group:		System/Libraries
 License:	GPL
-URL:		http://www3.sympatico.ca/sarrazip/dev/burgerspace.html
-Source:		http://perso.b2b2c.ca/sarrazip/dev/%{name}-%{version}.tar.gz
+URL:		http://sarrazip.com/dev/burgerspace.html
+Source:		http://sarrazip.com/dev/%{name}-%{version}.tar.gz
 Patch1:     flatzebra-0.1.2-fix-configure.ac.diff 
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	SDL1.2-devel
