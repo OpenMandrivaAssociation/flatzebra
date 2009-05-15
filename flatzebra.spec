@@ -1,6 +1,6 @@
 %define name flatzebra
-%define version	0.1.1
-%define release %mkrel 5
+%define version	0.1.2
+%define release %mkrel 1
 
 %define major   0.1_2
 %define libname %mklibname %name %major
@@ -13,10 +13,10 @@ Release:	%{release}
 Group:		System/Libraries
 License:	GPL
 URL:		http://www3.sympatico.ca/sarrazip/dev/burgerspace.html
-Source:		%{name}-%{version}.tar.bz2
+Source:		http://perso.b2b2c.ca/sarrazip/dev/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	SDL1.2-devel
-BuildRequires:	SDL_image1.2-devel
+BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer1.2-devel
 BuildRequires:	pkgconfig
 
