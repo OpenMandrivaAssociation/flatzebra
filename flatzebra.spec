@@ -20,6 +20,7 @@ BuildRequires:	SDL1.2-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer1.2-devel
 BuildRequires:	pkgconfig
+BuildRequires:	zlib1-devel
 # (misc) needed to regeneate autotools script 
 BuildRequires:	autoconf-archive
 %description
