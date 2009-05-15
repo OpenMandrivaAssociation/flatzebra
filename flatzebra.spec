@@ -14,12 +14,14 @@ Group:		System/Libraries
 License:	GPL
 URL:		http://www3.sympatico.ca/sarrazip/dev/burgerspace.html
 Source:		http://perso.b2b2c.ca/sarrazip/dev/%{name}-%{version}.tar.gz
+Patch1:     flatzebra-0.1.2-fix-configure.ac.diff 
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	SDL1.2-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer1.2-devel
 BuildRequires:	pkgconfig
-
+# (misc) needed to regeneate autotools script 
+BuildRequires:	autoconf-archive
 %description
 Generic Game Engine library suitable for BurgerSpace, Afternoon Stalker
 and Cosmosmash.
@@ -46,9 +48,12 @@ applications which will use %{name}.
 %prep
 
 %setup -q
+%patch1 -p0
 
 %build
-
+aclocal
+autoconf
+automake
 %configure
 
 %make
