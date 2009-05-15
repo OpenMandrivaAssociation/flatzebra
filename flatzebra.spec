@@ -11,10 +11,10 @@ Summary:	A Generic Game Engine library for 2D double-buffering animation
 Version:	%{version}
 Release:	%{release}
 Group:		System/Libraries
-License:	GPL
+License:	GPLv2
 URL:		http://sarrazip.com/dev/burgerspace.html
 Source:		http://sarrazip.com/dev/%{name}-%{version}.tar.gz
-Patch1:     flatzebra-0.1.2-fix-configure.ac.diff 
+Patch1:		flatzebra-0.1.2-fix-configure.ac.diff 
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	SDL1.2-devel
 BuildRequires:	SDL_image-devel
