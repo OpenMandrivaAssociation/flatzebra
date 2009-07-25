@@ -1,6 +1,6 @@
 %define name flatzebra
 %define version	0.1.3
-%define release %mkrel 1
+%define release %mkrel 2
 
 %define major   2
 %define libname %mklibname %name %major
@@ -28,6 +28,7 @@ and Cosmosmash.
 %package -n %{libname}
 Summary: Main library for %{name}
 Group: System/Libraries
+Obsoletes:  %mklibname %name 0.1_2
 
 %description -n %{libname}
 This package contains the library needed to run programs dynamically
