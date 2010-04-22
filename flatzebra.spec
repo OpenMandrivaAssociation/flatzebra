@@ -1,14 +1,10 @@
-%define name flatzebra
-%define version	0.1.3
-%define release %mkrel 2
-
 %define major   2
 %define libname %mklibname %name %major
 %define develname %mklibname %name -d
 
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		flatzebra
+Version:	0.1.4
+Release:	%mkrel 1
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Group:		System/Libraries
 License:	GPLv2
@@ -61,13 +57,6 @@ rm -rf %{buildroot}/%_docdir
 
 %clean 
 rm -rf %{buildroot}
-
-%if %mdkversion < 200900
-%post -n %{libname} -p /sbin/ldconfig
-%endif
-%if %mdkversion < 200900
-%postun -n %{libname} -p /sbin/ldconfig
-%endif
 
 %files -n %{libname}
 %defattr(-,root,root)
