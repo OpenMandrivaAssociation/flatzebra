@@ -4,7 +4,7 @@
 
 Name:		flatzebra
 Version:	0.1.5
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Group:		System/Libraries
 License:	GPLv2
@@ -13,8 +13,7 @@ Source:		http://sarrazip.com/dev/%{name}-%{version}.tar.gz
 BuildRequires:	SDL1.2-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer1.2-devel
-BuildRequires:	pkgconfig
-BuildRequires:	zlib1-devel
+BuildRequires:	zlib-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
