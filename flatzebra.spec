@@ -4,7 +4,7 @@
 
 Name:		flatzebra
 Version:	0.1.6
-Release:	1
+Release:	2
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Group:		System/Libraries
 License:	GPLv2
