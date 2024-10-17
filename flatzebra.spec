@@ -8,7 +8,7 @@ Release:	2
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Group:		System/Libraries
 License:	GPLv2
-URL:		http://sarrazip.com/dev/burgerspace.html
+URL:		https://sarrazip.com/dev/burgerspace.html
 Source:		http://sarrazip.com/dev/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_image)
