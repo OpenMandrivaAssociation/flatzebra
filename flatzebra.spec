@@ -10,6 +10,11 @@ Group:		System/Libraries
 License:	GPLv2
 URL:		https://sarrazip.com/dev/burgerspace.html
 Source:		http://sarrazip.com/dev/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(SDL_image)
 BuildRequires:	pkgconfig(SDL_mixer)
