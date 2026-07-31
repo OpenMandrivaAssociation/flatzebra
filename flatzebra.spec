@@ -3,8 +3,8 @@
 %define		develname	%mklibname %{name} -d
 
 Name:		flatzebra
-Version:	0.1.7
-Release:	2
+Version:	0.2.0
+Release:	1
 Summary:	A Generic Game Engine library for 2D double-buffering animation
 Group:		System/Libraries
 License:	GPLv2
